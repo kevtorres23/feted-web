@@ -29,7 +29,7 @@ export default function Home() {
 
                     <div className="lg:w-7xl lg:h-5xl sm:w-4xl sm:h-2xl w-full h-xl flex sm:flex-col flex-col-reverse gap-2 items-center justify-between">
                         <div className="bg-linear-to-r from-azul-principal to-guinda-principal w-full rounded-xl h-auto p-6 flex flex-col gap-1 items-center justify-center">
-                            <p className="text-slate-200 text-base font-normal">Ciclo actual.</p>
+                            <p className="text-slate-200 text-base font-normal">Administración actual</p>
                             <h1 className="text-4xl text-white font-semibold">2025-2028</h1>
                         </div>
                         <Image src={imagen1} className="rounded-xl object-cover h-auto w-full" alt="..." />
