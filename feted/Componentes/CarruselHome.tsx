@@ -7,18 +7,18 @@ import imagen3 from "../public/carrusel-imagen-3.jpg";
 export default function CarruselHome() {
     return (
 
-        <div id="default-carousel" className="relative w-full" data-carousel="slide">
-            <div className="relative h-36 overflow-hidden rounded-base md:h-96">
+        <div id="default-carousel" className="relative w-full z-0" data-carousel="slide">
+            <div className="relative overflow-hidden rounded-base h-128">
                 {/* Item 1 */}
                 <div className="hidden duration-700 ease-in-out items-center justify-center" data-carousel-item>
-                    <Image src={imagen1} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    <Image src={imagen1} className="absolute block w-full h-full object-cover" alt="..." />
 
                     {/* Opacidad para la imagen */}
-                    <div className="absolute flex items-center justify-center w-full h-full text-center bg-black opacity-50"></div>
+                    <div className="absolute flex items-center justify-center w-full h-full text-center bg-linear-to-b from-transparent to-black"></div>
 
                     {/* Texto de la imagen */}
-                    <div className="absolute flex items-end justify-start w-full h-full text-center p-10">
-                        <div className="flex flex-col gap-2 items-start justify-start">
+                    <div className="absolute flex items-end justify-start w-full h-full text-center sm:p-14! p-8">
+                        <div className="flex flex-col gap-2 items-start justify-start text-white">
                             <h1 className="text-4xl font-semibold">Unidos por un mejor futuro para todos.</h1>
                             <p>Lorem ipsum dolor sit amet. Consectetur parle apropós de.</p>
                         </div>
@@ -27,13 +27,13 @@ export default function CarruselHome() {
 
                 {/* Item 2 */}
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                    <Image src={imagen2} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    <Image src={imagen2} className="absolute block w-full h-full object-cover" alt="..." />
 
                     {/* Opacidad para la imagen */}
-                    <div className="absolute flex items-center justify-center w-full h-full text-center bg-black opacity-50"></div>
+                    <div className="absolute flex items-center justify-center object-cover w-full h-full text-center bg-linear-to-b from-transparent to-black"></div>
 
                     {/* Texto de la imagen */}
-                    <div className="absolute flex items-end justify-start w-full h-full text-center p-10">
+                    <div className="absolute flex items-end justify-start w-full h-full text-center sm:p-14! p-8 text-white">
                         <div className="flex flex-col gap-2 items-start justify-start">
                             <h1 className="text-4xl font-semibold">Unidos por un mejor futuro para todos.</h1>
                             <p>Lorem ipsum dolor sit amet. Consectetur parle apropós de.</p>
@@ -43,13 +43,13 @@ export default function CarruselHome() {
 
                 {/* Item 3 */}
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                    <Image src={imagen3} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    <Image src={imagen3} className="absolute block w-full h-full object-cover" alt="..." />
 
                     {/* Opacidad para la imagen */}
-                    <div className="absolute flex items-center justify-center w-full h-full text-center bg-black opacity-50"></div>
+                    <div className="absolute flex items-center justify-center w-full h-full text-center bg-linear-to-b from-transparent to-black"></div>
 
                     {/* Texto de la imagen */}
-                    <div className="absolute flex items-end justify-start w-full h-full text-center p-10">
+                    <div className="absolute flex items-end justify-start w-full h-full text-center sm:p-14! p-8 text-white">
                         <div className="flex flex-col gap-2 items-start justify-start">
                             <h1 className="text-4xl font-semibold">Unidos por un mejor futuro para todos.</h1>
                             <p>Lorem ipsum dolor sit amet. Consectetur parle apropós de.</p>

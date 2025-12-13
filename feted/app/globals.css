@@ -7,6 +7,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --azul-principal: #003386;
+  --guinda-principal: #9F1F1C;
 }
 
 body {
@@ -17,16 +19,9 @@ body {
 
 @theme inline {
   --color-background: var(--background);
-  --color-guinda-principal: #9f1239;
-  --color-morado-principal: #86198f;
   --color-foreground: var(--foreground);
+  --color-azul-principal: var(--azul-principal);
+  --color-guinda-principal: var(--guinda-principal);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
