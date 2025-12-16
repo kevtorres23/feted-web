@@ -75,16 +75,16 @@ export default function Home() {
 
                 {/* Sección 4 */}
                 <section className="w-full flex items-center justify-center rounded-2xl bg-linear-65 from-guinda-principal to-fuchsia-950 text-white h-auto sm:px-12! px-6 sm:py-24 py-10 md:flex-row flex-col gap-20">
-                    <div className="flex flex-col gap-4 items-start justify-start md:max-w-xl">
+                    <div className="flex flex-col gap-4 md:items-start md:justify-start items-center justify-center md:max-w-xl">
                         <div className="flex flex-row gap-2 px-4 py-2 bg-white text-black rounded-full">
                             <HandHeart width={20} color="black" />
                             <p className="font-semibold">Contáctanos</p>
                         </div>
-                        <h1 className="sm:text-4xl! text-3xl font-semibold">¿Tienes algún comentario o sugerencia?</h1>
-                        <p className="sm:text-lg text-base font-light text-slate-200">¡Háznoslo saber! Nos complace poder escuchar y atender lo que tienes que decir. Puedes contactarnos de las siguientes maneras:</p>
+                        <h1 className="sm:text-4xl! text-3xl font-semibold md:text-left text-center">¿Tienes algún comentario o sugerencia?</h1>
+                        <p className="sm:text-lg text-base font-light text-slate-200 md:text-left text-center">¡Háznoslo saber! Nos complace poder escuchar y atender lo que tienes que decir. Puedes contactarnos de las siguientes maneras:</p>
                     </div>
 
-                    <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 w-full">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 w-full">
                         <TarjetaContacto nombre="Número de teléfono" descripcion="618-812-1212" icono={<Phone width={32} className="text-white mb-4" />}/>
                         <TarjetaContacto nombre="Correo electrónico" descripcion="correofeted@gmail.com" icono={<Mail width={32} className="text-white mb-4" />}/>
                         <TarjetaContacto nombre="Dirección de oficinas" descripcion="618-812-1212" icono={<Building2 width={32} className="text-white mb-4" />}/>
